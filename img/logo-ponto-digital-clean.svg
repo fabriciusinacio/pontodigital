@@ -1,0 +1,13 @@
+<svg width="220" height="72" viewBox="0 0 220 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Ponto Digital</title>
+  <g transform="translate(8 8)">
+    <rect x="0" y="28" width="13" height="20" rx="3" fill="#151816"/>
+    <rect x="18" y="22" width="13" height="26" rx="3" fill="#151816"/>
+    <rect x="36" y="13" width="13" height="35" rx="3" fill="#151816"/>
+    <path d="M7 29C20 17 32 25 43 12" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="7" cy="29" r="6" fill="#2563EB"/>
+    <circle cx="43" cy="12" r="7" fill="#2563EB"/>
+  </g>
+  <text x="70" y="34" fill="#151816" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="800" letter-spacing="-0.3">ponto</text>
+  <text x="70" y="56" fill="#4B5563" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="-0.2">digital</text>
+</svg>
