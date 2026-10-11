@@ -17,8 +17,10 @@
 <body>
   <header class="site-header">
     <nav class="nav container" aria-label="Menu principal">
-      <!-- ALTERE AQUI O NOME DA SUA MARCA -->
-      <a class="brand" href="#inicio">Ponto Digital</a>
+      <a class="brand" href="#inicio" aria-label="Ponto Digital">
+        <span class="brand-mark">PD</span>
+        <span>Ponto Digital</span>
+      </a>
       <div class="nav-links">
         <a href="#servicos">Serviços</a>
         <a href="#contato">Contato</a>
@@ -32,8 +34,8 @@
       <div class="container hero-grid">
         <div class="hero-copy reveal">
           <span class="eyebrow">Presença digital local</span>
-          <h1>Sua empresa merece ser encontrada.</h1>
-          <p>Cuido da presença do seu negócio no Google para que seus clientes encontrem informações claras, conheçam sua empresa e entrem em contato com mais facilidade.</p>
+          <h1>Seu negócio no Google, apresentado do jeito certo.</h1>
+          <p>Cuido da apresentação e da otimização do perfil da sua empresa para facilitar que clientes encontrem suas informações e entrem em contato.</p>
           <div class="hero-actions">
             <a class="button primary" data-whatsapp-link href="#">Quero melhorar meu perfil</a>
             <a class="text-link" href="#servicos">Conheça o serviço</a>
@@ -41,18 +43,18 @@
         </div>
 
         <div class="profile-demo reveal" aria-label="Demonstração ilustrativa de um Perfil da Empresa no Google">
-          <span class="demo-note">Demonstração ilustrativa</span>
+          <span class="demo-note">Perfil demonstrativo</span>
           <div class="demo-search">restaurante perto de mim</div>
           <div class="demo-cover">
-            <img src="img/fachada-restaurante-exemplo.png" alt="Fachada ilustrativa do restaurante Black Bull Grill">
+            <img src="img/fachada-restaurante-exemplo.png" alt="Fachada ilustrativa de restaurante em perfil demonstrativo">
           </div>
           <div class="demo-title-row">
             <div>
-              <h2>Black Bull Grill</h2>
-              <div class="demo-rating" aria-label="Avaliação demonstrativa">5,0 <span class="stars">★★★★★</span> <span>(59)</span></div>
-              <p class="demo-meta">Restaurante · Aberto até 22:00</p>
+              <h2>Restaurante Aurora</h2>
+              <div class="demo-rating" aria-label="Avaliação demonstrativa">4,8 <span class="stars">★★★★★</span> <span>avaliações</span></div>
+              <p class="demo-meta">Restaurante · perfil demonstrativo</p>
             </div>
-            <span class="demo-avatar">BB</span>
+            <span class="demo-avatar">RA</span>
           </div>
           <div class="demo-tabs">
             <span>Visão geral</span>
@@ -67,10 +69,22 @@
             <span>Site</span>
           </div>
           <ul>
-            <li>Av. Paulista, 1000 · São Paulo - SP</li>
-            <li>Menu, fotos e avaliações em destaque</li>
+            <li>Informações comerciais organizadas</li>
+            <li>Menu, fotos e avaliações visíveis</li>
             <li>Telefone, rotas e site fáceis de acessar</li>
           </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visual-proof">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Demonstração visual</span>
+          <h2>Uma presença mais profissional faz diferença.</h2>
+        </div>
+        <div class="comparison-image reveal">
+          <img src="img/google-meu.png" alt="Comparativo ilustrativo entre um perfil desorganizado e um Perfil da Empresa no Google bem gerenciado">
         </div>
       </div>
     </section>
@@ -101,30 +115,9 @@
             <span>03</span>
             <div>
               <h3>Gestão e acompanhamento</h3>
-              <p>Acompanhamento do perfil, análise dos dados disponíveis e suporte na gestão das avaliações.</p>
+              <p>Acompanhamento do perfil, análise dos dados disponíveis e suporte à gestão de avaliações reais, recentes e respondidas com profissionalismo.</p>
             </div>
           </article>
-        </div>
-        <div class="reviews-note reveal">
-          <span>Avaliações importam</span>
-          <p>Avaliações reais e recentes ajudam novos clientes a entenderem a experiência de outras pessoas com sua empresa. Também fortalecem a confiança e contribuem para uma presença local mais consistente, sem promessas de posição garantida.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section visual-proof">
-      <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow">Demonstração visual</span>
-          <h2>Uma presença mais profissional faz diferença.</h2>
-        </div>
-        <div class="comparison-image reveal">
-          <img src="img/google-meu.png" alt="Comparativo ilustrativo entre um perfil desorganizado e um Perfil da Empresa no Google bem gerenciado">
-        </div>
-        <div class="comparison-points reveal" aria-label="Resumo da comparação">
-          <p><strong>Informações incompletas</strong><span>versus</span><strong>informações organizadas</strong></p>
-          <p><strong>Fotos desatualizadas</strong><span>versus</span><strong>fotos bem apresentadas</strong></p>
-          <p><strong>Contatos difíceis</strong><span>versus</span><strong>contatos acessíveis</strong></p>
         </div>
       </div>
     </section>
@@ -144,12 +137,12 @@
           <article>
             <span>02</span>
             <h3>Analisamos</h3>
-            <p>Avalio como sua empresa aparece no Google.</p>
+            <p>Avalio o perfil atual e identifico oportunidades de melhoria.</p>
           </article>
           <article>
             <span>03</span>
             <h3>Melhoramos</h3>
-            <p>Organizo o perfil e defino as melhorias necessárias.</p>
+            <p>Organizo o perfil e realizo as melhorias acordadas.</p>
           </article>
         </div>
         <div class="process-cta reveal">
@@ -173,12 +166,14 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <a class="brand" href="#inicio">Ponto Digital</a>
+      <a class="brand" href="#inicio" aria-label="Ponto Digital">
+        <span class="brand-mark">PD</span>
+        <span>Ponto Digital</span>
+      </a>
       <p>© <span id="current-year"></span> · Presença local com clareza e profissionalismo.</p>
       <div>
-        <!-- ALTERE AQUI SEUS LINKS DE CONTATO -->
         <a data-whatsapp-link href="#">WhatsApp</a>
-        <a href="mailto:contato@seudominio.com">E-mail</a>
+        <a href="mailto:tagpontodigital@gmail.com">E-mail</a>
       </div>
     </div>
   </footer>

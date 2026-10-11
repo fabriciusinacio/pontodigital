@@ -1,8 +1,7 @@
 // ALTERE ESTE NÚMERO PARA O SEU WHATSAPP
-const WHATSAPP_NUMBER = "5599999999999";
+const WHATSAPP_NUMBER = "5543998008659";
 
-// ALTERE AQUI SEUS LINKS PRINCIPAIS
-const EMAIL_ADDRESS = "contato@seudominio.com";
+const EMAIL_ADDRESS = "tagpontodigital@gmail.com";
 
 const whatsappMessage = encodeURIComponent(
   "Olá! Quero conversar sobre a presença da minha empresa no Google."
